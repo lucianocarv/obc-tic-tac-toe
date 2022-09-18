@@ -254,7 +254,7 @@ main {
 
 @keyframes marked {
   0% {
-    transform: scale(10) rotate(-100deg);
+    transform: scale(2) rotate(-100deg);
   }
   100% {
     transform: scale(1) translate(0px) rotate(0deg);
