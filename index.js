@@ -1,6 +1,5 @@
 const initializeGameButton = document.querySelector("input[name='start']");
 initializeGameButton.addEventListener("click", preLoadGame);
-
 const HTMLMain = document.querySelector("main");
 const HTMLInitialScreenValid = document.querySelector(".initial-form");
 const HTMLPlayer1 = document.querySelector("input[name='player1']");
@@ -35,13 +34,10 @@ HTMLInputsPlayers.forEach((input) => {
 
 const HTMLNameOfFirstPlayer = document.getElementById("name-of-player-1");
 const HTMLNameOfSecondPlayer = document.getElementById("name-of-player-2");
-
 const HTMLResultView = document.getElementById("results-game");
 const HTMLGameGridArea = document.querySelector(".area-game");
-
 const HTMLFirstPlayerWinsCount = document.getElementById("counter-player-1");
 const HTMLSecondPlayerWinsCount = document.getElementById("counter-player-2");
-
 const HTMLPlayAgain = document.getElementById("btn");
 const HTMLBoxesToBeMarked = document.querySelectorAll(".marker");
 
