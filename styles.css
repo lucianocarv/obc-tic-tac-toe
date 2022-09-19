@@ -344,7 +344,6 @@ main {
   animation-delay: 0.2s;
 }
 
-/* Media */
 @media screen and (max-width: 1140px) {
   body {
     overflow: scroll;
