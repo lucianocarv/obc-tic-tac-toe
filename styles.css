@@ -145,6 +145,7 @@ main {
 
 .wins-count {
   font-size: 5em;
+  padding: 0em 0.5em;
 }
 
 .wins {
@@ -193,6 +194,11 @@ main {
 
 .icon-size {
   font-size: 8em;
+}
+
+.credit {
+  padding: 1em;
+  font-size: 0.8em;
 }
 
 #rigth-count {
@@ -362,7 +368,17 @@ main {
   }
 
   .replay {
-    padding: 0.5em;
+    padding: 0.5em 0;
+  }
+
+  .replay #refresh {
+    padding: 0;
+    min-width: 3em;
+    min-height: 3em;
+  }
+
+  .text-play-again {
+    display: none;
   }
 
   .flex-c h1 {
