@@ -42,7 +42,7 @@ const HTMLGameGridArea = document.querySelector(".area-game");
 const HTMLFirstPlayerWinsCount = document.getElementById("counter-player-1");
 const HTMLSecondPlayerWinsCount = document.getElementById("counter-player-2");
 
-const HTMLPlayAgain = document.getElementById("refresh");
+const HTMLPlayAgain = document.getElementById("btn");
 const HTMLBoxesToBeMarked = document.querySelectorAll(".marker");
 
 HTMLBoxesToBeMarked.forEach((marker) => {

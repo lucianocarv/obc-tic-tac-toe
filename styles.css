@@ -99,11 +99,12 @@ main {
   grid-area: player1;
 }
 
-.replay {
+.header-buttons {
   padding-bottom: 5em;
 }
 
-.replay #refresh {
+.header-buttons #btn,
+.settings {
   padding: 0.5em 2em;
   border-radius: 50px;
   min-width: 10em;
@@ -117,10 +118,10 @@ main {
   cursor: pointer;
 }
 
-.replay #refresh:disabled {
+.header-buttons #btn:disabled {
   filter: brightness(0.5);
 }
-.replay #refresh:hover {
+.header-buttons #btn:hover {
   transform: scale(1.1);
 }
 .name-player {
@@ -366,11 +367,12 @@ main {
     padding-bottom: 1em;
   }
 
-  .replay {
+  .header-buttons {
     padding: 0.5em 0;
   }
 
-  .replay #refresh {
+  .header-buttons #btn,
+  .settings {
     padding: 0;
     min-width: 3em;
     min-height: 3em;
